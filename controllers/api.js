@@ -10,7 +10,7 @@ router.get('/', function (req, res) {
 		req.connection.remoteAddress;
 
 	var account = 'ntttransformersstrg';
-	var key = 'nBHAxxjGSsCCC/2hsmeUYm1lGCrAfiGR5BdfkDW9s1OKThuX6IBgf+q0EbH3c6lYVBQV09dsHGWXxUvpyF807Q==';
+	var key = '';
 
 
 	fs.writeFile("controllers/iplog.txt", remoteAddress, function (err) {
